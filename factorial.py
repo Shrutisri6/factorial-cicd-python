@@ -1,5 +1,5 @@
 def factorial(n):
-    if n < 0:
+    if n <= -1::
         raise ValueError("Factorial is not defined for negative numbers")
 
     result = 1
